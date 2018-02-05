@@ -50,6 +50,6 @@ end
 def find_the_cheese(arr)
    cheese_types = ["cheddar", "gouda", "camembert"]
   arr.find do |maybe_cheese|
-    cheese_type.include?(maybe_cheese)
+    cheese_types.include?(maybe_cheese)
   end
 end
